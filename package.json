@@ -1,11 +1,19 @@
 {
   "name": "module-patterns",
   "version": "1.0.0",
-  "description": "My awesome module",
-  "main": "index.js",
+  "description": "My init.js",
+  "main": "npm.init.js",
   "scripts": {
-    "test": "echo \"working...\""
+    "test": "\"Working...\""
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safeplace12345/MyModules.git"
+  },
+  "author": "\"Ghost\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safeplace12345/MyModules/issues"
+  },
+  "homepage": "https://github.com/safeplace12345/MyModules#readme"
 }

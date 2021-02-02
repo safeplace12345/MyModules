@@ -1,0 +1,1 @@
+module.exports = prompt('Shall We Begin Mate : )' ,"Yes Sir");
