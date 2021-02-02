@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5>
+        steps
+    </h5>
+    <p>modify the package.json file</p>
+    <code>
+        --- "main": "index.js",
+      +++  "private": true,
+    </code>
+
+    <p>Create a distribution Folder (./dist)</p>
+    <p>install Lodash Locally so at not to link to it</p>
+    <code>npm install lodash --save</code>
+    <p>Used the npx webpack to bundle all files to dist/main.js</p>
+    <p>All done</p>
+    <script src="./main.js"></script>
+</body>
+</html>
