@@ -4,7 +4,9 @@
   "description": "My init.js",
   "main": "npm.init.js",
   "scripts": {
-    "test": "\"Working...\""
+    "test": "\"Working...\"",
+    "authorName": "npm set init.author.name 'Ghost'",
+    "authorEmail": "npm set init.author.email ' safeplace12345@gmail.com'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/safeplace12345/MyModules/issues"
   },
-  "homepage": "https://github.com/safeplace12345/MyModules#readme"
+  "homepage": "https://github.com/safeplace12345/MyModules#readme",
+  "dependencies": {
+    "rollup": "^2.38.4",
+    "sass": "^1.32.6"
+  }
 }
