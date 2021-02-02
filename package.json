@@ -1,0 +1,11 @@
+{
+  "name": "module-patterns",
+  "version": "1.0.0",
+  "description": "My awesome module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"working...\""
+  },
+  "author": "",
+  "license": "ISC"
+}
