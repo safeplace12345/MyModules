@@ -20,6 +20,24 @@
     <code>npm install lodash --save</code>
     <p>Used the npx webpack to bundle all files to dist/main.js</p>
     <p>All done</p>
+
+    <h5>
+        Using Config files
+    </h5>
+    <p>Create a webpack.config.js</p>
+    <code>
+        const path = require('path');
+
+        module.exports = {
+        entry: "./src/index.js",
+        output: {
+        filename : 'main.js',
+        path : path.resolve(__dirname , 'dist'),
+        },
+        }
+    </code>
+
+    <h6>Npm scripts</h6>
     <script src="./main.js"></script>
 </body>
 </html>
